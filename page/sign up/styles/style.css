@@ -1,0 +1,71 @@
+.signup-container{
+    width: 1440px;
+    height: 100vh;
+   
+}
+.bg-img{
+    background-image: url(../assets/Nothing-Familiar-10.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 900px;
+    
+}
+.btn-info{
+    width:49%;
+    background-color: #F9AB30 !important;
+    border: none !important;
+}
+.form-list{
+    width: 570px;
+    height: 100vh;
+}
+input{
+    width : 319.33px !important;
+    height: 40px;
+}
+*{
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.button-img{
+    position:absolute; 
+    left: 120px;
+    top: 610px;
+   background-image: url(../assets/hero-bg-bottom.png);
+   background-position: center;
+ 
+    width: 200px;
+    height: 100px;
+}
+input::placeholder{
+ opacity: 0.5 !important;
+}
+.btn-warning{
+    width: 100%;
+    background-color: #F9AB30 !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+    .bg-img{
+        display: none;
+    }
+    .button-img{
+        position:absolute; 
+        left: 10px;
+        top: 615px;
+       background-image: url(../assets/hero-bg-bottom.png);
+       background-position: center;
+     
+        width: 200px;
+        height: 100px;
+    }
+    input::placeholder{
+        opacity: 0.5 !important;
+       }
+
+
+  }

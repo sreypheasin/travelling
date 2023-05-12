@@ -1,0 +1,130 @@
+.img {
+    width: 40%;
+    height: 40%;
+}
+
+
+.background {
+    background-color: #33313B !important;
+    padding: 3px;
+}
+
+.ContactUs h3 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C71D9;
+}
+
+.ContactUs h1 {
+    font-size: 24px;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Roboto Mono', monospace;
+    color: #3C71D9;
+}
+
+.tourisFeedback h1 {
+    color: #3C71D9;
+}
+
+.text-banner h1 {
+    color: #3C71D9;
+    font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-banner p {
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-overflow: ellipsis;
+}
+
+#nav {
+    background-color: #33313B !important;
+    width: 100% !important;
+}
+
+.navbar-text {
+    margin-left: 300px;
+}
+
+.about .tex {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.web img a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #33313B !important;
+   
+
+}
+
+footer li {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid #c3bfb8;
+}
+
+#img-banner {
+    width: 100%;
+    height: 260px;
+}
+
+
+
+@media(max-width: 768px) {
+    .container {
+        width: 768px !important;
+    }
+    #nav {
+        background-color: #33313B !important;
+        width: 100% !important;
+    }
+    #fixe-img{
+        max-width: 350px !important;
+    }
+}
+@media only screen and (max-width: 425px){
+    *{
+        max-width: 425px !important;
+    }
+    #nav {
+        background-color: #33313B !important;
+        width: 100% !important;
+    }
+ 
+    hr {
+        border: 1px solid #ffffff !important;
+        width: 90%;
+    
+    }
+    
+    /* footer style for mobile  */
+    footer {
+        background-color: #33313B !important;
+        width: 500px !important;
+    
+    }
+   
+  }
+  /* design new */
+.navbar-nav{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: whitesmoke !important;
+    
+}
+.navbar-brand > text-center > h1{
+   background-color: red;
+}
+#new-nav{
+    background-color: #33313B !important;
+   
+}
+/* end of nav bar */

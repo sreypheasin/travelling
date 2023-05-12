@@ -1,0 +1,271 @@
+body {
+    background-color: #ffff;
+}
+
+
+.logo {
+    width: 50%;
+    height: 120%;
+}
+
+.background {
+    background-color: #33313B !important;
+    padding: 3px;
+}
+
+.img {
+    width: 100%;
+    height: 10%;
+}
+
+.imgfamily {
+    width: 530px;
+    height: 480px;
+}
+
+.card1 {
+    width: 280px;
+    height: 370px;
+}
+
+.card2 {
+    width: 380px;
+    height: 340px;
+}
+
+.card3 {
+    height: 217px;
+}
+
+.pic {
+    height: 220px;
+}
+
+
+/*  font in card */
+
+.kps {
+    font-size: 13px !important;
+}
+
+
+/* ====================== */
+
+.text span {
+    font-family: "Poppins", Arial, sans-serif;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    display: inline-block;
+    background: #33313b;
+    padding: 8px 9px 8px 19px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.text:hover span {
+    padding-right: 20px;
+    background: #f9ab30;
+}
+
+.ftco-navbar-light.scrolled.awake {
+    margin-top: 0px;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+}
+
+
+/* Featback section */
+
+.featback-bg {
+    background-color: #eeee;
+}
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    /* background-color: black; */
+    border-radius: 50%;
+}
+
+.avatar>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-fb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* height: 272px;
+    width: 364px; */
+
+   
+}
+
+
+/* footer style */
+
+.footer-logo {
+    width: 50%;
+    height: 120%;
+}
+
+footer {
+    background-color: #33313B !important;
+    /* height: 342px; */
+}
+
+footer li {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid #ffffff !important;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    hr {
+        border: 1px solid #ffffff !important;
+        width: 90%;
+    }
+    /* footer style for mobile  */
+    footer {
+        background-color: #33313B !important;
+        width: 500px !important;
+    }
+  
+}
+
+
+/* border */
+
+.border-custom {
+    border: 1px solid transparent !important;
+}
+
+.ftco-counter .text strong.number {
+    font-weight: 600;
+    font-size: 28px;
+    color: #ffc107;
+}
+
+.ftco-counter .text i {
+    display: block;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.61);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+* {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.picture {
+    height: 217px !important;
+}
+@media(max-width: 768px) {
+
+    body{
+        width: 768px!important;
+    }
+    .card1 {
+        width: auto;
+        height: auto;
+    }
+    
+    .card2 {
+        width: auto;
+        height: auto;
+    }
+    
+    .card3 {
+        height: auto;
+    }
+    #fb{
+        box-sizing: border-box;
+    
+        
+    }
+    .card-fb{
+     margin-top: 1.5rem !important;
+    }
+    .ms-md-5{
+        margin-left: 11rem!important;
+    }
+    #tourist-fb{
+        margin-left: 0!important;
+
+    }
+
+.style-text {
+    font-weight: 590 !important;
+}
+
+.fw {
+    font-weight: 590;
+    color: rgb(0, 0, 0);
+}
+}
+
+/* design new */
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke !important;
+    
+}
+.navbar-brand > text-center > h1{
+   background-color: red;
+}
+#new-nav{
+    background-color: #33313B !important;
+   
+}
+/* end of nav bar */
+@media only screen and (max-width: 430px) {
+    .img-fluid{
+        width: 425px!important;
+        
+    }
+    .container{
+    
+        display: block!important;
+    }
+    .navbar-nav{
+        width: 425px!important;
+    }
+    #body{
+        width: 425px!important;
+    }
+    footer{
+        width: 425px!important;
+    }
+    .card-fb{
+        margin-top: 0 !important;
+        margin-bottom: 15px!important;
+       }
+       .ms-md-5{
+           margin-left: 0!important;
+       }
+       #tourist-fb{
+           margin: 0!important;
+   
+       }
+       .set-height-width{
+            padding: 0!important;
+            padding-left: 10px!important;
+            padding-right: 10px!important;
+          
+              
+       }
+       
+}
+
